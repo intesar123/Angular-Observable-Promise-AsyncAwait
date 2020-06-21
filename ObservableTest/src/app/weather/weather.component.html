@@ -1,0 +1,22 @@
+<p>weather data!</p>
+<table>
+    <thead>
+        <tr>
+        <th>date</th>
+        <th>Temparature C</th>
+        <th>Temparature F</th>
+        <th>Summary</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of weather">
+        <th>{{data.date}}</th>
+        <th>{{data.temperatureC}}</th>
+        <th>{{data.temperatureF}}</th>
+        <th>{{data.summary}}</th>
+    </tr>
+    </tbody>
+</table>
+
+<h4>*********Footer***************</h4>
+
